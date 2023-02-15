@@ -16,7 +16,7 @@ body{
   background-repeat: no-repeat;
 }
 
-h1,button{
+h1,button, label{
   font-family: tittles;
 }
 
