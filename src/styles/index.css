@@ -1,8 +1,22 @@
+@font-face {
+  font-family: tittles;
+  src: url("../assets/college.ttf");
+}
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body{
-  background-color: #000020;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../assets/img/background-1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
+h1,button{
+  font-family: tittles;
+}
+

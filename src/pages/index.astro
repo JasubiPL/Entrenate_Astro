@@ -1,9 +1,18 @@
 ---
+import Button from '../components/react/Button';
+import Input from '../components/react/Input';
 import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="Entrenate" descriptionPage="Pagina de Bienvenida">
-	<main>
-		<h1>Entrenate</h1>
+	<main class="bg-black/90 grid content-center justify-center align-middle h-full w-full ">
+		<form class="w-60  lg:w-80 grid">
+			<h1 class="mb-5 text-center text-white text-5xl">PINEYRO FIT</h1>
+			<label for='userName' class="font-sans text-white">Nombre de Usuario</label>
+			<Input id='userName' type='text' placeholder='Nombre de usuario o correo' />
+			<label for='password' class="font-sans text-white">Nombre de Usuario</label>
+			<Input id='password' type='password' placeholder='Escribe tu contraseña' />
+			<Button text="Entrat" click={() => console.log()} />
+		</form>
 	</main>
 </Layout>
