@@ -1,6 +1,6 @@
 export default function Footer(){
   return(
-    <footer className="bg-personal-black flex justify-between p-2 items-bottom absolute bottom-0 w-full h-24 lg:h-12">
+    <footer className="bg-personal-black flex justify-between p-2 items-bottom align-bottom w-full lg:h-14">
       <div>
       <a href="https://www.facebook.com/jasubip" target='_blank' className="flex items-center h-1/3 lg:h-auto">
         <h3 className="text-white mr-2">By</h3>
