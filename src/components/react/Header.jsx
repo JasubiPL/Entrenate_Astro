@@ -1,6 +1,6 @@
 export default function Header(){
 
-  let userName = 'David'
+  let userName = 'Jasubi'
 
   return(
     <header className="bg-personal-black flex p-1 justify-between items-center h-14 xl:px-4">
