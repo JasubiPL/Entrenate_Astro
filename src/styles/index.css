@@ -21,3 +21,9 @@ body{
 h1,button, label{
   font-family: tittles;
 }
+
+@media screen and (max-width:1024px) {
+  body{
+    grid-template-rows: 112px auto 160px;
+  }
+}
