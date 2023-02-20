@@ -7,13 +7,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+html{
+  background-image: url("/img/background.webp");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
 body{
   width: 100vw;
   min-height: 100vh;
-  background-image: url("/img/background.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, .9);
   display: grid;
   grid-template-rows: 56px auto 160px;
 }
