@@ -6,6 +6,9 @@ module.exports = {
 			colors:{
 				'personal-black': '#161B1F',
 			},
+			backgroundImage: {
+        'test-img': "url('/img/blog/wxample.jpg')",
+      }
 		},
 	},
 	plugins: [],

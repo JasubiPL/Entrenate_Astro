@@ -22,6 +22,38 @@ h1,button, label{
   font-family: tittles;
 }
 
+h3{
+  color: #22c55e;
+  margin-top: 20px;
+}
+
+a{
+  color: #22c55e;
+}
+
+p{
+  padding: 10px;
+}
+
+ul{
+  margin-left: 25px;
+}
+
+section li{
+  padding-left: 10px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+section li::before{
+  position: absolute;
+  content: "\00BB";
+  margin-left: -30px;
+  margin-top: -13px;
+  color: #22c55e;
+  font-size: 30px;
+}
+
 @media screen and (max-width:1024px) {
   body{
     grid-template-rows: 112px auto 160px;
