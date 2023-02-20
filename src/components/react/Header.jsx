@@ -10,7 +10,7 @@ export default function Header(){
   return(
     <header className="bg-personal-black grid grid-rows-2 grid-cols-2 p-1 items-center h-28 lg:h-14 xl:px-4 lg:grid-rows-1 lg:grid-cols-3">
       {/* Logo and user name */}
-      <div className="flex items-center">
+      <div className="flex items-center cursor-pointer" >
         <GymIcon width='40' heigth='40' fill='#fff'/>
         <h1 className="ml-3 text-2xl flex h-50 text-white" >Hola<span className="text-green-500 ml-2">{userName}</span></h1>
       </div>

@@ -20,8 +20,8 @@ export default function Footer(){
         </div>
       </div>
       <div className="mt-3">
-        <a href="https://www.facebook.com/jasubip" target='_blank' className="flex justify-center opacity-40 hover:opacity-100">
-          <h3 className="text-white mr-2">By</h3>
+        <a href="https://www.facebook.com/jasubip" target='_blank' className="flex justify-center items-center opacity-40 hover:opacity-100">
+          <h3 className="text-white mt-0 mr-2 flex justify-center">By</h3>
           <img src='/img/icons/Imagotipo-Blanco.png' alt='By JasubiP' className="h-8" />
         </a>
       </div>

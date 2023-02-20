@@ -5,6 +5,7 @@ author: Jasubi
 description: esta es la descripcion
 img: /img/blog/wxample.jpg
 date: 00/00/00
+sectionActive: blog
 ---
 <p class="text-2xl border-b-4 border-green-500 pb-3">00/00/00</p>
 

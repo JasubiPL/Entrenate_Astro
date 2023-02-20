@@ -7,8 +7,8 @@ const { frontmatter } = Astro.props;
 
 <LayoutWithNav descriptionPage={frontmatter.description} title={frontmatter.title}>
   <div class='w-full text-white flex flex-col items-center'>
-    <header class='w-full h-96 bg-test-img bg-cover bg-center flex justify-center items-center'>
-      <h1 class='text-8xl stroke-black stroke-2'> {frontmatter.title} </h1>
+    <header class='w-full h-56 bg-test-img bg-cover bg-center flex justify-center items-center lg:h-96'>
+      <h1 class='text-5xl stroke-black stroke-2 lg:text-8xl'> {frontmatter.title} </h1>
     </header>
     <section class='w-full max-w-5xl px-2 my-5'>
       <slot />
