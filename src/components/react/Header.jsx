@@ -5,7 +5,7 @@ import HomeIcon from "../icons/HomeIcon"
 
 export default function Header(){
 
-  let userName = 'Jasubi'
+  let userName = 'David'
 
   return(
     <header className="bg-personal-black grid grid-rows-2 grid-cols-2 p-1 items-center h-28 lg:h-14 xl:px-4 lg:grid-rows-1 lg:grid-cols-3">

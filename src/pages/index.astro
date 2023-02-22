@@ -1,6 +1,11 @@
 ---
 import LayoutWithNav from "../layouts/LayoutWithNav.astro";
 
+let loged = true;
+
+if(!loged){
+  return Astro.redirect('/singIn');
+}
 ---
 
 <LayoutWithNav descriptionPage="pagina de inicio" title="Home">
