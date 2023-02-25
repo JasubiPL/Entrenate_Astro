@@ -11,6 +11,9 @@ module.exports = {
 				'submenu':"url('/img/background-submenu.svg')"
       }
 		},
+		screens:{
+			'tablet':'600px'
+		},
 	},
 	plugins: [],
 }

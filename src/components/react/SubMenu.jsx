@@ -15,7 +15,7 @@ export default function SubMenu({userName}){
         lg:w-12 lg:border-4 lg:border-green-500"/>
         <h2 className="text-white text-3xl mt-2 lg:mt-0 lg:text-xl">{userName}</h2>
       </div>
-      <ul className="w-full text-2xl flex flex-col items-start gap-10 py-5 ">
+      <ul className="w-full text-2xl flex flex-col items-start gap-10 py-5 tablet:text-4xl">
         <a href="#" className="text-white">
           <li className="flex gap-3">
             <UserIcon width='30' heigth='30'/>
