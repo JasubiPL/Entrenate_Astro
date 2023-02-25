@@ -8,6 +8,7 @@ module.exports = {
 			},
 			backgroundImage: {
         'test-img': "url('/img/blog/wxample.jpg')",
+				'submenu':"url('/img/background-submenu.svg')"
       }
 		},
 	},

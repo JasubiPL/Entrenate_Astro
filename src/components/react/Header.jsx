@@ -2,6 +2,12 @@ import BlogIcon from "../icons/BlogIcon"
 import EatIcon from "../icons/EatIcon"
 import GymIcon from "../icons/GymIcon"
 import HomeIcon from "../icons/HomeIcon"
+import CloseIcon from "../icons/CloseIcon"
+import UserIcon from "../icons/UserIcon"
+import NotificationsIcon from "../icons/NotificationsIcon"
+import SettingsIcon from "../icons/SettingsIcon"
+import Button from "../react/Button"
+import SignOutIcon from "../icons/SignOutIcon"
 
 export default function Header(){
 
@@ -24,8 +30,39 @@ export default function Header(){
         </ul>
       </nav>
       {/* User profile photo and menu 2 */}
-      <div className="flex justify-end">
+      <div className="flex justify-end lg:relative">
         <img src={`/img/profile-photo/${userName}.png`} alt={userName} className="rounded-full h-10 cursor-pointer"/>
+        <nav className="flex flex-col absolute w-screen h-screen z-10 left-0 top-0 bg-submenu items-center p-5">
+          <div className="w-full flex justify-end"> <CloseIcon width='20' heigth='20'/> </div>
+          <img src={`/img/profile-photo/${userName}.png`} alt={userName} className="rounded-full w-32 aspect-square cursor-pointer"/>
+          <h2 className="text-white text-3xl mt-2">{userName}</h2>
+          <ul className="w-full text-2xl flex flex-col items-start gap-10 py-5 ">
+            <a href="#" className="text-white">
+              <li className="flex gap-3">
+                <UserIcon width='30' heigth='30'/>
+                Perfil
+              </li>
+            </a>
+            <a href="#" className="text-white">
+              <li className="flex gap-3">
+                <NotificationsIcon width='30' heigth='30' />
+                Notificaciones
+              </li>
+            </a>
+            <a href="#" className="text-white">
+              <li className="flex gap-3">
+                <SettingsIcon width='30' header='30' />
+                Configuracion
+              </li>
+            </a>
+          </ul>
+          <div className="flex w-full mt-20">
+            <Button>
+              Salir
+              <SignOutIcon width='30' header='30' />
+            </Button>
+          </div>
+        </nav>
       </div>
     </header>
   )

@@ -21,7 +21,7 @@ body{
   grid-template-rows: 56px auto 160px;
 }
 
-h1,button, label{
+h1,h2,button, label{
   font-family: tittles;
 }
 

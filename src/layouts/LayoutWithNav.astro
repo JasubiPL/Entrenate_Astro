@@ -17,7 +17,7 @@ const { title, descriptionPage } =  Astro.props;
 		<title>{title}</title>
 	</head>
 	<body>
-			<Header />
+			<Header client:only='react'/>
 			<slot />
 			<Footer />
 	</body>
