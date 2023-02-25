@@ -1,10 +1,9 @@
 ---
 import LayoutWithNav from "../layouts/LayoutWithNav.astro";
-
-let loged = true;
+import { loged } from "../js/handleLogin";
 
 if(!loged){
-  return Astro.redirect('/singIn');
+  return Astro.redirect('/signIn');
 }
 ---
 

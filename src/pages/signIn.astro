@@ -1,0 +1,13 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { loged } from "../js/handleLogin";
+import LoginForm from '../components/react/LoginForm';
+
+if(loged){
+  return Astro.redirect('/');
+}
+---
+
+<Layout title="Entrenate" descriptionPage="Pagina de Bienvenida">
+	<LoginForm client:only='react'/>
+</Layout>

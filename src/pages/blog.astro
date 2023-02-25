@@ -1,5 +1,10 @@
 ---
 import LayoutWithNav from "../layouts/LayoutWithNav.astro";
+import { loged } from "../js/handleLogin";
+
+if(!loged){
+  return Astro.redirect('/signIn');
+}
 ---
 
 <LayoutWithNav title="" descriptionPage="">
