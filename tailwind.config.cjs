@@ -9,10 +9,10 @@ module.exports = {
 			backgroundImage: {
         'test-img': "url('/img/blog/wxample.jpg')",
 				'submenu':"url('/img/background-submenu.svg')"
-      }
-		},
-		screens:{
-			'tablet':'600px'
+      },
+			screens:{
+				'tb':'600px'
+			},
 		},
 	},
 	plugins: [],

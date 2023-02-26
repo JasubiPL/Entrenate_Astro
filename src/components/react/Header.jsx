@@ -3,10 +3,23 @@ import EatIcon from "../icons/EatIcon"
 import GymIcon from "../icons/GymIcon"
 import HomeIcon from "../icons/HomeIcon"
 import SubMenu from "./SubMenu"
+import { useState } from "react"
 
 export default function Header(){
-
   let userName = 'David'
+  let subMenuSwitch = false;
+
+  const [subMenuStyle, setSubMenuStyle] = useState('h-0')
+
+  function handleSubMenu(){
+    if(subMenuSwitch){
+      setSubMenuStyle('h-0')
+      subMenuSwitch = false;
+    }else{
+      setSubMenuStyle('h-screen lg:h-auto p-5 lg:border-b-8 lg:border-b-green-500')
+      subMenuSwitch = true;
+    }
+  }
 
   return(
     <header className="bg-personal-black grid grid-rows-2 grid-cols-2 p-1 items-center h-28 lg:h-14 xl:px-4 lg:grid-rows-1 lg:grid-cols-3">
@@ -26,8 +39,15 @@ export default function Header(){
       </nav>
       {/* User profile photo and menu 2 */}
       <div className="flex justify-end ">
-      <img src={`/img/profile-photo/${userName}.png`} alt={userName} className="rounded-full h-10 cursor-pointer"/>
-      <SubMenu userName={userName}/>
+      <img src={`/img/profile-photo/${userName}.png`} alt={userName} 
+        className="rounded-full h-10 cursor-pointer"
+        onClick={handleSubMenu}
+      />
+      <SubMenu 
+        userName={userName}
+        subMenuStyle={subMenuStyle}
+        handleSubMenu={handleSubMenu}
+      />
     </div>
     </header>
   )
