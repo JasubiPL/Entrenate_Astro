@@ -25,13 +25,13 @@ h1,h2,button, label{
   font-family: tittles;
 }
 
+ul a{
+  font-family: tittles;
+}
+
 h3{
   color: #00bb2d;
   margin-top: 20px;
-}
-
-a{
-  color: #00bb2d;
 }
 
 p{

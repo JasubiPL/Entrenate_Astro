@@ -33,7 +33,7 @@ export default function Header(){
         <ul className="flex w-full max-w-xl justify-around">
           <a href="/"><li><HomeIcon width='26' heigth='26'/></li></a>
           <a href="/blog"><li><BlogIcon width='26' heigth='26' /></li></a>
-          <a href="/ejercicio"><li><GymIcon width='26' heigth='26' fill='#fff'/></li></a>
+          <a href="/ejercicios/aparatos"><li><GymIcon width='26' heigth='26' fill='#fff'/></li></a>
           <a href="/recetas"><li><EatIcon width='26' heigth='26' /></li></a>
         </ul>
       </nav>

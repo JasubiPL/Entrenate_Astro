@@ -1,0 +1,14 @@
+---
+import LayoutWithNav from "../../layouts/LayoutWithNav.astro";
+import { loged } from "../../js/handleLogin";
+import ExcercisesNav from "../../components/react/ExcercisesNav";
+
+if(!loged){
+  return Astro.redirect('/signIn');
+}
+---
+<LayoutWithNav title="Ejersicis con aparatos" descriptionPage="">
+  <main class=" w-full flex flex-col items-center">
+    <ExcercisesNav />
+  </main>
+</LayoutWithNav>
