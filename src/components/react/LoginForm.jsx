@@ -33,7 +33,7 @@ export default function LoginForm(){
           placeholder='Escribe tu correo' 
           onChange={(e) => setUserName(e.target.value)} 
           value={userName}
-          className="mb-3 text-white bg-white/20 skew-x-12 px-3 py-2 outline-none border-solid border-l-8 border-green-600"
+          className="mb-3 text-white bg-white/20 skew-x-12 px-3 py-2 outline-none border-solid border-l-8 border-secundari"
         />
 
         <label className=" text-white mt-5">Nombre de Usuario</label>
@@ -42,7 +42,7 @@ export default function LoginForm(){
           placeholder='Escribe tu contraseña' 
           onChange={(e) => setPassword(e.target.value)} 
           value={password} 
-          className="mb-3 text-white bg-white/20 skew-x-12 px-3 py-2 outline-none border-solid border-l-8 border-green-600"
+          className="mb-3 text-white bg-white/20 skew-x-12 px-3 py-2 outline-none border-solid border-l-8 border-secundari"
         />
 
         <Button click={() => alert("click")}> Entrar</Button>

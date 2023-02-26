@@ -26,7 +26,7 @@ export default function Header(){
       {/* Logo and user name */}
       <div className="flex items-center cursor-pointer" >
         <GymIcon width='40' heigth='40' fill='#fff'/>
-        <h1 className="ml-3 text-2xl flex h-50 text-white" >Hola<span className="text-green-500 ml-2">{userName}</span></h1>
+        <h1 className="ml-3 text-2xl flex h-50 text-white" >Hola<span className="text-secundari ml-2">{userName}</span></h1>
       </div>
       {/* Menu */}
       <nav className="flex bg-personal-black w-full justify-center row-start-2 col-span-2 lg:row-start-1 lg:col-start-2 lg:col-span-1">

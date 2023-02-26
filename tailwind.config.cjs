@@ -4,7 +4,8 @@ module.exports = {
 	theme: {
 		extend: {
 			colors:{
-				'personal-black': '#161B1F',
+				'personal-black': '#122c5c',
+				'secundari':'#00bb2d',
 			},
 			backgroundImage: {
         'test-img': "url('/img/blog/wxample.jpg')",

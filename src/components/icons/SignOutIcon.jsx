@@ -7,7 +7,7 @@ const SignOutIcon = (props) => (
     width={props.width}
     height={props.height}
     {...props}
-    className='fill-white lg:fill-current'
+    className='fill-secundari lg:fill-current'
   >
     <g data-name="01 align center">
       <path d="M2 21V3a1 1 0 0 1 1-1h5V0H3a3 3 0 0 0-3 3v18a3 3 0 0 0 3 3h5v-2H3a1 1 0 0 1-1-1Z" />

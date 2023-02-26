@@ -16,7 +16,7 @@ html{
 body{
   width: 100vw;
   min-height: 100vh;
-  background-color: rgba(0, 0, 0, .9);
+  background-color: rgba(0, 0, 0, .5);
   display: grid;
   grid-template-rows: 56px auto 160px;
 }
@@ -26,12 +26,12 @@ h1,h2,button, label{
 }
 
 h3{
-  color: #22c55e;
+  color: #00bb2d;
   margin-top: 20px;
 }
 
 a{
-  color: #22c55e;
+  color: #00bb2d;
 }
 
 p{
@@ -53,7 +53,7 @@ section li::before{
   content: "\00BB";
   margin-left: -30px;
   margin-top: -13px;
-  color: #22c55e;
+  color: #00bb2d;
   font-size: 30px;
 }
 
